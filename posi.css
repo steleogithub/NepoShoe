@@ -1,0 +1,339 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    background-color: rgb(37, 36, 36);
+}
+
+
+nav{
+    height: 80px;
+   
+    background: rgb(21, 11, 43);
+}
+
+nav .logo{
+    color: white;
+    font-size: 38px;
+    font-weight: bold;
+    line-height: 75px;
+    padding-left: 50px;
+    
+
+}
+
+
+
+
+.search{
+    margin-left: 100px;
+    border-radius: 3px;
+    border: none;
+    padding: 3px;
+    width: 250px;
+    outline: none;
+}
+
+.butt{
+    margin-left:10px;
+    border-radius: 3px;
+    border: none;
+    padding:3px;
+    padding-left: 10px;
+    padding-right: 10px;
+    transition: 0.6s;
+    font-weight: 500;
+
+}
+
+.butt:hover{
+    background-color: rgb(119, 218, 119);
+    color: white;
+    font-style: Roboto;
+}
+
+nav .sh{
+    color: red;
+    font-size: 34px;
+    
+}
+nav ul{
+    float: right;
+    margin-left: 30px;
+}
+nav ul li{
+    display: inline-block;
+   
+}
+nav ul li a{
+    
+    color: white;
+    display: block;
+    padding:10px;
+    line-height: 40px;
+    font-size: 20px;
+    background: rgb(21, 11, 43);
+    transition:0.5s;   
+    border-radius: 3px;
+    position:relative;
+    right: 50px;
+    top: 0px;
+    text-decoration: none;
+    font-style: Roboto;
+
+}
+
+
+nav ul li a:hover{
+    background-color: rgb(55, 119, 55);
+    opacity: 0.8;
+}
+
+
+.posi{
+background: rgba(0,0,0,0.7) url(shoecollection.webp);
+background-size: cover;
+object-fit: cover;
+background-blend-mode: darken;
+ width: 100%;
+ height: 100vh;
+ 
+ position: relative;
+ 
+    
+}
+
+.image{
+   
+    width: 500px;
+    z-index: 0;
+    opacity: 0.9;
+    transition: 1s;
+    
+  
+}
+
+
+
+ .child2{
+  
+   position: absolute;
+   right: 5%;
+  top: 68px;
+   
+ }
+
+.child1{
+    color: rgba(255, 254, 254,0.8);
+    font-size: 20px;
+    width: 400px;
+    position: absolute;
+    left: 15% ;
+    top: 96px;
+    z-index: 10;
+}
+
+
+
+
+
+.div1{
+
+    display: grid;
+    
+    grid-template-columns: 33% 33% 34%;
+    margin-top: 100px;
+    
+  
+
+}
+
+
+.sh1{
+    background: rgba(0,0,0,0.6) url(shoe1.jpg);
+    background-size: cover;
+    object-fit: cover;
+    background-blend-mode: darken;
+    width: 100%;
+    height: 300px;
+    transition: 0.7s;
+    margin-bottom: 100px;
+    margin-left: 20px;
+    border-radius: 3px;
+}
+
+.sh1:hover{
+   
+background:rgba(0,0,0,0.5) url(shoe4.jpg);
+
+}
+
+
+.para1{
+  
+    color:white;
+    display: absolute;
+    margin-top: 180px;
+    font-style: Roboto;
+    font-size: 20px;
+    width: 70%;
+    margin-left: 30px;
+}
+
+.sh2{
+    background:rgba(0,0,0,0.5)  url(shoe2.jpg);
+    background-size: cover;
+    object-fit: cover;
+    background-blend-mode: darken;
+    width: 100%;
+    height: 300px;
+    transition: 0.7s;
+    margin-bottom: 100px;
+    margin-left: 20px;
+    border-radius: 3px;
+}
+
+.sh2:hover{
+    background:rgba(0,0,0,0.4) url(shoe5.jpg);
+
+}
+
+
+.para2{
+  
+    color:white;
+    display: absolute;
+    margin-top: 180px;
+    font-style: Roboto;
+    font-size: 20px;
+    width: 70%;
+    margin-left: 30px;
+}
+
+
+.sh3{
+    background:rgba(0,0,0,0.5) url(shoe3.jpg);
+    background-size: cover;
+    object-fit: cover;
+    background-blend-mode: darken;
+    width: 100%;
+    height: 300px;
+    transition: 0.7s;
+    margin-bottom: 100px;
+    margin-left: 20px;
+    border-radius: 3px;
+}
+
+.sh3:hover{
+    background:rgba(0,0,0,0.4)url(shoe6.jpg);
+
+}
+
+
+.para3{
+  
+    color:white;
+    display: absolute;
+    margin-top: 180px;
+    font-style: Roboto;
+    font-size: 20px;
+    width: 70%;
+    margin-left: 30px;
+}
+
+
+
+.socail-media{
+    height:35px;
+
+    margin-top:30px;
+    margin-bottom:30px;
+    
+}
+
+
+.fb{
+    height: 100%;
+    border-radius: 20px;
+    object-fit: cover;
+    margin-left: 50px;
+}
+
+.yt{
+    margin-left: 25px;
+   height: 100%;
+    border-radius: 20px;
+    object-fit: cover;
+}
+
+.hrline{
+    color: yellow;
+}
+
+
+.about{
+    
+    width: 100%;
+    margin-bottom: 100px;
+}
+
+.logo2{
+    color: white;
+    font-size: 38px;
+    font-weight: bold;
+    line-height: 75px;
+    padding-left: 50px;
+    margin-left: 35%;
+    margin-bottom: 5px;
+}
+
+.sh{
+    color: red;
+    font-size: 34px;
+}
+
+
+.description{
+    color: white;
+    margin-left: 5%;
+    margin-right: 5%;
+    text-align: justify;
+}
+.gap{
+    margin-left:60px;
+}
+
+.more{
+    margin-left: 6%;
+    border-color: black;
+    background-color: rgb(37, 36, 36);
+    color: white;
+    font-weight: 500;
+    font-style: Roboto;
+    border-radius:3px;
+    border-width: 0.8px;
+    padding-left: 13px;
+    padding-right:13px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.more:hover{
+    width:120px;
+    height: 28px;
+    
+}
+
+.more:active{
+    background-color:rgb(9, 49, 9);
+}
+/*
+.div2{
+    display: grid;
+    height: 400px;
+    margin-top: 40px;
+    grid-template-columns: 33% 33% 34%;
+}
+*/
